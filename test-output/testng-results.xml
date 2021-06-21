@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-15T17:17:30 IST" name="Default suite" finished-at="2021-06-15T17:20:22 IST" duration-ms="171789">
+    <groups>
+    </groups>
+    <test started-at="2021-06-15T17:17:30 IST" name="Default test" finished-at="2021-06-15T17:20:22 IST" duration-ms="171789">
+      <class name="com.hedis.automation.uitest.search.SearchTest">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:17:29 IST" name="setUpSuite" finished-at="2021-06-15T17:17:30 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:17:30 IST" name="setUpTest" finished-at="2021-06-15T17:17:50 IST" duration-ms="20568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:17:50 IST" name="setUp" finished-at="2021-06-15T17:18:16 IST" depends-on-methods="com.hedis.automation.base.BaseTest.setUpTest" duration-ms="25649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchByDob(java.lang.String, java.lang.String)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:18:16 IST" name="testSearchByDob" description="Test search by date of birth" data-provider="testSearchByDob" finished-at="2021-06-15T17:19:11 IST" duration-ms="54895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Billy  Nutbeem CORP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[08/14/1950]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByDob -->
+        <test-method is-config="true" signature="tearDownAfterMethod(org.testng.ITestResult)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:19:11 IST" name="tearDownAfterMethod" finished-at="2021-06-15T17:19:11 IST" duration-ms="493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchByDob status=SUCCESS method=SearchTest.testSearchByDob(java.lang.String, java.lang.String)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method signature="testSearchByName(java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:19:11 IST" name="testSearchByName" description="Test search by first and last name" data-provider="testSearchByName" finished-at="2021-06-15T17:19:15 IST" duration-ms="3207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test search by first name, expecting result]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SOUTH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByName -->
+        <test-method is-config="true" signature="tearDownAfterMethod(org.testng.ITestResult)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:19:15 IST" name="tearDownAfterMethod" finished-at="2021-06-15T17:19:15 IST" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchByName status=SUCCESS method=SearchTest.testSearchByName(java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method signature="testSearchByName(java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:19:15 IST" name="testSearchByName" description="Test search by first and last name" data-provider="testSearchByName" finished-at="2021-06-15T17:19:18 IST" duration-ms="3164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test search by last name, expecting result]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DEATON]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByName -->
+        <test-method is-config="true" signature="tearDownAfterMethod(org.testng.ITestResult)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:19:18 IST" name="tearDownAfterMethod" finished-at="2021-06-15T17:19:18 IST" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchByName status=SUCCESS method=SearchTest.testSearchByName(java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method signature="testSearchByName(java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:19:18 IST" name="testSearchByName" description="Test search by first and last name" data-provider="testSearchByName" finished-at="2021-06-15T17:19:21 IST" duration-ms="3341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test search by first and last name, expecting result]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SOUTH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DEATON]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByName -->
+        <test-method is-config="true" signature="tearDownAfterMethod(org.testng.ITestResult)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:19:21 IST" name="tearDownAfterMethod" finished-at="2021-06-15T17:19:21 IST" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchByName status=SUCCESS method=SearchTest.testSearchByName(java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method signature="testSearchByName(java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:19:21 IST" name="testSearchByName" description="Test search by first and last name" data-provider="testSearchByName" finished-at="2021-06-15T17:20:14 IST" duration-ms="52988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test search by non-existing name, expecting no result]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByName -->
+        <test-method is-config="true" signature="tearDownAfterMethod(org.testng.ITestResult)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:20:14 IST" name="tearDownAfterMethod" finished-at="2021-06-15T17:20:14 IST" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchByName status=SUCCESS method=SearchTest.testSearchByName(java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method signature="testSearchByOrg(java.lang.String)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:20:14 IST" name="testSearchByOrg" description="Test search by organization" data-provider="getOrganizationName" finished-at="2021-06-15T17:20:18 IST" duration-ms="3401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Billy  Nutbeem CORP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByOrg -->
+        <test-method is-config="true" signature="tearDownAfterMethod(org.testng.ITestResult)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:20:18 IST" name="tearDownAfterMethod" finished-at="2021-06-15T17:20:18 IST" duration-ms="60" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchByOrg status=SUCCESS method=SearchTest.testSearchByOrg(java.lang.String)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method signature="testSearchResultIcons(java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:20:18 IST" name="testSearchResultIcons" description="Test search result icons patient chart, CCDA and NCDA CCDA" data-provider="testSearchResultIcons" finished-at="2021-06-15T17:20:21 IST" duration-ms="2867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test search by first name, expecting result]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SOUTH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DEATON]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchResultIcons -->
+        <test-method is-config="true" signature="tearDownAfterMethod(org.testng.ITestResult)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:20:21 IST" name="tearDownAfterMethod" finished-at="2021-06-15T17:20:21 IST" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchResultIcons status=SUCCESS method=SearchTest.testSearchResultIcons(java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.hedis.automation.uitest.search.SearchTest@7749bf93]" started-at="2021-06-15T17:20:21 IST" name="tearDownClass" finished-at="2021-06-15T17:20:22 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.hedis.automation.uitest.search.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
